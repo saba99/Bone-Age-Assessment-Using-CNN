@@ -22,6 +22,3 @@ See [requirements.txt](https://github.com/bryanlincoln/bone-age-regression/blob/
 -   Train the ResNet50 model with `python boneage.py`
 -   Try different models and hyperparameters by editing the training script or use the `boneage.ipynb` notebook to do it interactively.
 
-## Credits
-
-I used the vision models already [implemented in torchvision](https://github.com/pytorch/vision/tree/master/torchvision/models) with slight changes. You can try other torchvision models by adding the `in_channels` parameter to generalize the number of input channels since torchvision models work with RGB images.
