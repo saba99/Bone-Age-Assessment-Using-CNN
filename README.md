@@ -7,6 +7,8 @@ This competition was inspired by [RSNA's Bone Age challenge](https://www.kaggle.
 <img src="docs/ex1.png" width="250" height="320"> <img src="docs/ex2.png" width="250" height="320"> <img src="docs/ex3.png" width="250" height="320">
 > X-ray images provided in the competition's dataset.
 
+https://github.com/chenchao666/Bone-Age-Assessment/blob/master/img/img2.png
+
 My final solution used a [ResNet50](https://arxiv.org/abs/1512.03385) architecture, a [Rectified Adam](https://arxiv.org/abs/1908.03265) optimizer and geometric data augmentations. This model achieved a Mean Average Error of 13.2 after 20 epochs of training, which I believe could be improved given more training time and a better preprocessing pipeline (e.g. using object detection to segment the hands and normalizing hand rotation). Unfortunately, I didn't save all the hyperparameters I experimented with (neither their results), but you'll find the ones I used for my last submission in the code.
 
 ## Requirements
