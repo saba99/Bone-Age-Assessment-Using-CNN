@@ -10,8 +10,10 @@ This competition was inspired by [RSNA's Bone Age challenge](https://www.kaggle.
 <img src="docs/img2.png" width="850" height="400">
  Attention Images
 
+## Results
+<div align=center><img src="https://github.com/chenchao666/Bone-Age-Assessment/blob/master/img/img2.png" width="750" /></div>
+<div align=center><img src="https://github.com/chenchao666/Bone-Age-Assessment/blob/master/img/img3.png" width="750" /></div>
 
-My final solution used a [ResNet50](https://arxiv.org/abs/1512.03385) architecture, a [Rectified Adam](https://arxiv.org/abs/1908.03265) optimizer and geometric data augmentations. This model achieved a Mean Average Error of 13.2 after 20 epochs of training, which I believe could be improved given more training time and a better preprocessing pipeline (e.g. using object detection to segment the hands and normalizing hand rotation). Unfortunately, I didn't save all the hyperparameters I experimented with (neither their results), but you'll find the ones I used for my last submission in the code.
 
 ## Requirements
 
