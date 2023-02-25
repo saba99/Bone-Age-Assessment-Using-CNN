@@ -7,13 +7,10 @@ This competition was inspired by [RSNA's Bone Age challenge](https://www.kaggle.
 <img src="docs/ex1.png" width="250" height="320"> <img src="docs/ex2.png" width="250" height="320"> <img src="docs/ex3.png" width="250" height="320">
 > X-ray images provided in the competition's dataset.
 
-<img src="docs/img2.png" width="850" height="400">
- Attention Images
+##Attention Images
 
 ## Results
 <div align=center><img src="https://github.com/chenchao666/Bone-Age-Assessment/blob/master/img/img2.png" width="750" /></div>
-<div align=center><img src="https://github.com/chenchao666/Bone-Age-Assessment/blob/master/img/img3.png" width="750" /></div>
-
 
 ## Requirements
 
